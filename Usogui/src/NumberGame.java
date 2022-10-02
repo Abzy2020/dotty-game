@@ -95,7 +95,7 @@ public class NumberGame {
                 menuRunning = false;
             }
             else{
-                System.out.println("Please choose a selection: ");
+                System.out.println("Please choose a valid selection");
                 System.out.println();
             }
 
