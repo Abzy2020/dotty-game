@@ -8,11 +8,13 @@ public class App {
         int numOne;
         int numTwo;
 
+        //Choose Player Names
         System.out.println("Player One Name:");
         String playerOne = scnr.nextLine();
         System.out.println("Player Two Name:");
         String playerTwo = scnr.nextLine();
-
+        
+        //Choose Player Numbers
         System.out.println("Player one, choose a number:");
         numOne = scnr.nextInt();
         System.out.println("Player two, choose a number:");
