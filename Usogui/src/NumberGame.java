@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class NumberGame {
     
-    Scanner s = new Scanner(System.in);
     private boolean menuRunning = true;
     private boolean running = true;
     private boolean turn = true;
@@ -13,6 +12,7 @@ public class NumberGame {
     private int numTwo;
     private int sum = numOne + numTwo;
     private int guess;
+    Scanner s = new Scanner(System.in);
 
     public void setPlayerOne(String playerOne){
         this.playerOne = playerOne;
